@@ -1,22 +1,22 @@
-import React from 'react'
-import config from '../config';
-import {Container} from 'react-bootstrap'
+import React from "react";
+import config from "../config";
 
 function Techlonogy() {
   return (
-    <Container className="my-card my-info">
+    <div className="my-card my-info">
       <p className="card-title">Technological background</p>
       {config?.technologies?.map((item) => (
         <div>
-          <p className="title">{item.language}
-          {item?.techs?.map((subItem) => (
-            <span className="title">{` | ${subItem}`}</span>  
-          ))}   
-          </p> 
+          <p className="title">
+            {item.language}
+            {item?.techs?.map((subItem) => (
+              <span className="title">{` | ${subItem}`}</span>
+            ))}
+          </p>
         </div>
       ))}
-    </Container>
-  )
+    </div>
+  );
 }
 
 export default Techlonogy;

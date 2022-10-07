@@ -9,9 +9,9 @@ function MyInfo() {
       <div className="profilePic-box">
         <Image src={img} className="profilePic" />
       </div>
-      <p className="card-title text-center">{`${config.fullName}🕊`}</p>
+      <p className="card-title text-large text-center">{`${config.fullName}🕊`}</p>
       <p className="title text-center text-bigger">{`${config.profession}, (${config.occupation})`}</p>
-      <p className="title text-center">{`🍀 ${config.description} 🌊`}</p>
+      <p className="title text-center w50">{`🍀 ${config.description} 🌊`}</p>
     </div>
   );
 }

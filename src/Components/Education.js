@@ -1,10 +1,9 @@
 import React from "react";
 import config from "../config";
-import { Container } from "react-bootstrap";
 
 function Education() {
   return (
-    <Container className="my-card my-info">
+    <div className="my-card my-info">
       <p className="card-title">Educational background</p>
       {config?.educations?.map((item) => (
         <div key={item?.from}>
@@ -24,7 +23,7 @@ function Education() {
           </a>
         </div>
       ))}
-    </Container>
+    </div>
   );
 }
 

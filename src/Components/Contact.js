@@ -1,12 +1,11 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import config from "../config";
 
 function Contact({ theme }) {
   return (
-    <Container className="my-card my-info">
+    <div className="my-card my-info">
       <p className="card-title">Contact</p>
       {config?.contact?.map((item) => (
         <div key={item?.value} className="my-row">
@@ -30,7 +29,7 @@ function Contact({ theme }) {
           )}
         </div>
       ))}
-    </Container>
+    </div>
   );
 }
 

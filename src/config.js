@@ -149,6 +149,22 @@ module.exports = {
       logo: require("./assets/bsb.png"),
     },
   ],
+  certificates: [
+    {
+      org: "ITPEC",
+      title: "INFORMATION TECHNOLOGY PASSPORT EXAMINATION",
+      text: "Certified Information Technology Professional (IP)",
+      year: "2018",
+      number: "MNIP18A0009",
+    },
+    {
+      org: "ITPEC",
+      title: "FUNDAMENTAL INFORMATION TECHNOLOGY ENGINEER EXAMINATION",
+      text: "Certified Information Technology Professional (FE)",
+      year: "2019",
+      number: "MNFE18A0009",
+    },
+  ],
   github: {
     username: "Yesunerdene", // Your GitHub org/user name. (Required)
     sortBy: "stars", // stars | updated
