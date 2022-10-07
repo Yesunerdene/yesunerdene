@@ -115,7 +115,8 @@ module.exports = {
       role: "Mobile app developer",
       releasedOn: "2022.03.10",
       appStore: "https://apps.apple.com/mn/app/octagon-wallet/id1611280720",
-      playStore: "Octagon Wallet - Apps on Google Play",
+      playStore:
+        "https://play.google.com/store/apps/details?id=com.octagonwallet.mobile",
       logo: require("./assets/octagon.png"),
     },
     {
@@ -124,8 +125,8 @@ module.exports = {
       company: "Powered LLC",
       role: "Mobile app developer",
       releasedOn: "2022.03.10",
-      appStore: "https://apps.apple.com/mn/app/octagon-wallet/id1611280720",
-      playStore: "Octagon Wallet - Apps on Google Play",
+      appStore: "https://apps.apple.com/mn/app/yesh-mn/id1556433230",
+      playStore: "https://play.google.com/store/apps/details?id=com.yesh",
       logo: require("./assets/yesh.png"),
     },
     {
@@ -134,8 +135,8 @@ module.exports = {
       company: "Digital Mall LLC",
       role: "Software engineer",
       releasedOn: "2022.03.10",
-      appStore: "https://apps.apple.com/mn/app/octagon-wallet/id1611280720",
-      playStore: "Octagon Wallet - Apps on Google Play",
+      appStore: "https://apps.apple.com/ca/app/bananamall/id1562615154",
+      playStore: "https://play.google.com/store/apps/details?id=com.bananamall",
       logo: require("./assets/bananamall.png"),
     },
     {
@@ -144,8 +145,9 @@ module.exports = {
       company: "Alpha Labs LLC",
       role: "Mobile app developer",
       releasedOn: "2022.03.10",
-      appStore: "https://apps.apple.com/mn/app/octagon-wallet/id1611280720",
-      playStore: "Octagon Wallet - Apps on Google Play",
+      appStore: "https://apps.apple.com/mn/app/bsb-mn/id1550545343",
+      playStore:
+        "https://play.google.com/store/apps/details?id=com.bsb.mobileapp",
       logo: require("./assets/bsb.png"),
     },
   ],
