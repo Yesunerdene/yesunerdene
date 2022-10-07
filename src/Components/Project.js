@@ -22,7 +22,8 @@ function Project({ theme }) {
                   <a target="blank" href={item?.appStore}>
                     <FontAwesomeIcon
                       size="3x"
-                      icon="fa-brands fa-app-store"
+                      // style="--fa-animation-duration: 0.5s;"
+                      icon="fa-brands fa-app-store fa-beat"
                       color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
                     />
                   </a>
@@ -31,7 +32,8 @@ function Project({ theme }) {
                   <a target="blank" href={item?.playStore}>
                     <FontAwesomeIcon
                       size="3x"
-                      icon="fa-brands fa-google-play"
+                      // style="--fa-animation-duration: 0.5s;"
+                      icon="fa-brands fa-google-play fa-beat"
                       color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
                     />
                   </a>

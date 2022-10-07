@@ -10,7 +10,7 @@ function Contact({ theme }) {
       {config?.contact?.map((item) => (
         <div key={item?.value} className="my-row">
           <FontAwesomeIcon
-            size="x"
+            size="1x"
             icon={item?.icon}
             color={theme === "dark-theme" ? "#FFF" : "#000"}
           />

@@ -13,12 +13,12 @@ import {
   Certificate,
 } from "../Components";
 
-function Home({ theme }) {
+function Home({ theme, changeTheme }) {
   return (
     <div className="my-container">
       <Row>
         <Col sm={12}>
-          <MyInfo theme={theme} />
+          <MyInfo theme={theme} changeTheme={changeTheme} />
         </Col>
         <Col sm={12}>
           <Row>
