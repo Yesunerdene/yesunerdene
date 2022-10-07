@@ -32,7 +32,7 @@
   }
 
   .theme-button {
-    top: -0.5em;
+    top: 1em;
     right: 2em;
     width: 3em;
     height: 3em;
@@ -51,7 +51,6 @@
 
   .project-holder {
     flex: 1;
-    margin-bottom: 2.5em;
     align-self: center !important;
     align-items: center !important;
     align-content: center !important;
@@ -176,7 +175,7 @@
   }
 
   .theme-button {
-    top: -0.5em;
+    top: 1em;
     right: 2em;
     width: 3em;
     height: 3em;
@@ -195,7 +194,6 @@
 
   .project-holder {
     flex: 1;
-    margin-bottom: 2.5em;
     align-self: center !important;
     align-items: center !important;
     align-content: center !important;
@@ -296,7 +294,7 @@
 }
 
 .profilePic {
-  width: 23%;
+  width: 20%;
   padding: 0.3em;
   height: null;
   display: block;
@@ -304,7 +302,16 @@
   align-self: center;
   border-radius: 100%;
   margin-bottom: 1.5em;
+  transition: transform .2s;
   border: 0.3em solid rgb(212, 163, 236);
+}
+
+
+.profilePic::hover {
+  transform: scale(1.1);
+  border: 0.3em solid rgb(169, 103, 202);
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
 }
 
 p {
@@ -377,6 +384,15 @@ a {
 
   .line {
     width: 100% !important;
+  }
+
+  .project-holder {
+    margin-bottom: 2.5em;
+  }
+
+  .theme-button {
+    top: -0.5em !important;
+    right: 1em !important;
   }
 }
 
