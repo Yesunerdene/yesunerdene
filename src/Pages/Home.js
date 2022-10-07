@@ -43,6 +43,7 @@ function Home({ theme, changeTheme }) {
           <Project theme={theme} />
         </Col>
       </Row>
+      <Footer />
     </div>
   );
 }
