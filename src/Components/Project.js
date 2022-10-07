@@ -14,7 +14,7 @@ function Project({ theme }) {
           <Col lg={3} md={6} sm={12} xs={12} key={item?.title} className="">
             <div key={item?.title} className="project-holder">
               <Image src={item?.logo} className="project-logo mb2" />
-              <p className="card-title text-center">{item.title}</p>
+              <p className="title text-bigger mb0 text-center">{item.title}</p>
               <p className="title text-center mb0">{`by ${item.company}`}</p>
               <p className="title text-small-gray text-center">{`released on ${item.releasedOn}`}</p>
               <div className="my-row2 mt1 ">
