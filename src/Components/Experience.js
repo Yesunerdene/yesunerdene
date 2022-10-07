@@ -4,11 +4,11 @@ import { Row, Col, Container } from "react-bootstrap";
 
 function Experience() {
   return (
-    <Container className="my-card my-info">
+    <div className="my-card my-info">
       <p className="card-title">Experience</p>
       <Row>
         {config?.experiences?.map((item) => (
-          <Col key={item?.company} sm={6}>
+          <Col key={item?.company} sm={12} md={6}>
             <div key={item?.company} className="company-holder">
               <p className="title text-bigger mb0">
                 <a target="blank" href={item?.href}>
@@ -24,7 +24,7 @@ function Experience() {
           </Col>
         ))}
       </Row>
-    </Container>
+    </div>
   );
 }
 

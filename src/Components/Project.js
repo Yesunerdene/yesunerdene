@@ -7,33 +7,35 @@ function Project({ theme }) {
   const [selected, select] = useState(null);
 
   return (
-    <Container className="my-card my-info">
+    <div className="my-card my-info">
       <p className="card-title">Projects</p>
       <Row className="my-row">
         {config?.projects?.map((item) => (
-          <Col key={item?.title} sm={3} className="centera">
-            <div key={item?.title} className="project-holder center">
-              <div className="profilePic-box">
-                <Image src={item?.logo} className="project-logo center" />
-              </div>
-              <p className="card-title text-centera">{item.title}</p>
-              <p className="title text-centera mb0">{`by ${item.company}`}</p>
-              <p className="title text-small-gray text-centera">{`released on ${item.releasedOn}`}</p>
-              <div className="center mt1">
-                <a target="blank" href={item?.appStore} className="store-icon">
-                  <FontAwesomeIcon
-                    size="3x"
-                    icon="fa-brands fa-app-store"
-                    color={theme === "dark-theme" ? "#FFF" : "#000"}
-                  />
-                </a>
-                <a target="blank" href={item?.playStore} className="store-icon">
-                  <FontAwesomeIcon
-                    size="3x"
-                    icon="fa-brands fa-google-play"
-                    color={theme === "dark-theme" ? "#FFF" : "#000"}
-                  />
-                </a>
+          <Col lg={3} md={6} sm={12} xs={12} key={item?.title} className="">
+            <div key={item?.title} className="project-holder">
+              <Image src={item?.logo} className="project-logo mb2" />
+              <p className="card-title text-center">{item.title}</p>
+              <p className="title text-center mb0">{`by ${item.company}`}</p>
+              <p className="title text-small-gray text-center">{`released on ${item.releasedOn}`}</p>
+              <div className="my-row2 mt1 ">
+                <div className="mr3">
+                  <a target="blank" href={item?.appStore}>
+                    <FontAwesomeIcon
+                      size="3x"
+                      icon="fa-brands fa-app-store"
+                      color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
+                    />
+                  </a>
+                </div>
+                <div className="ml3">
+                  <a target="blank" href={item?.playStore}>
+                    <FontAwesomeIcon
+                      size="3x"
+                      icon="fa-brands fa-google-play"
+                      color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
+                    />
+                  </a>
+                </div>
               </div>
               <div className="line" />
               <div className="dot" />
@@ -55,7 +57,7 @@ function Project({ theme }) {
           </Button> */}
         </Modal.Footer>
       </Modal>
-    </Container>
+    </div>
   );
 }
 
