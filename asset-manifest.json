@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yesunerdene/static/css/main.762d8429.css",
-    "main.js": "/yesunerdene/static/js/main.3a2da672.js",
+    "main.js": "/yesunerdene/static/js/main.42dfec9c.js",
     "static/js/787.94b6e9da.chunk.js": "/yesunerdene/static/js/787.94b6e9da.chunk.js",
     "static/media/YesunerdeneCV.pdf": "/yesunerdene/static/media/YesunerdeneCV.067fc652bd63d51d2886.pdf",
     "static/media/image.png": "/yesunerdene/static/media/image.57a5af55febd3b54034a.png",
@@ -10,16 +10,15 @@
     "static/media/isu.jpeg": "/yesunerdene/static/media/isu.40067148a78de5b78dc2.jpeg",
     "static/media/bsb.png": "/yesunerdene/static/media/bsb.ded626c427489cf3a886.png",
     "static/media/togloom.png": "/yesunerdene/static/media/togloom.9a794e6ae4eefb77d791.png",
-    "static/media/banana.png": "/yesunerdene/static/media/banana.55ac02120697a0a298d9.png",
     "static/media/bananamall.png": "/yesunerdene/static/media/bananamall.8b5cd67dee7a0a497d6a.png",
     "static/media/octagon.png": "/yesunerdene/static/media/octagon.7d390c792c30b7168608.png",
     "index.html": "/yesunerdene/index.html",
     "main.762d8429.css.map": "/yesunerdene/static/css/main.762d8429.css.map",
-    "main.3a2da672.js.map": "/yesunerdene/static/js/main.3a2da672.js.map",
+    "main.42dfec9c.js.map": "/yesunerdene/static/js/main.42dfec9c.js.map",
     "787.94b6e9da.chunk.js.map": "/yesunerdene/static/js/787.94b6e9da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.762d8429.css",
-    "static/js/main.3a2da672.js"
+    "static/js/main.42dfec9c.js"
   ]
 }
