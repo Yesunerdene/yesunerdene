@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import config from "../config";
+import cv from "../assets/YesunerdeneCV.pdf";
 
 function Contact({ theme }) {
   return (
@@ -29,6 +30,20 @@ function Contact({ theme }) {
           )}
         </div>
       ))}
+      <br />
+      <FontAwesomeIcon
+        size="1x"
+        color={theme === "dark-theme" ? "#FFF" : "#000"}
+        icon={"fa-solid fa-download"}
+      />
+      <a
+        href={cv}
+        className={`cv title contact-value`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {`Resume / Cv`}
+      </a>
     </div>
   );
 }
