@@ -4,7 +4,7 @@ import config from "../config";
 function Education() {
   return (
     <div className="my-card my-info">
-      <p className="card-title">Educational background</p>
+      <p className="card-title">Education</p>
       {config?.educations?.map((item) => (
         <div key={item?.from}>
           <p className="title text-small-gray">{`${item.from} - ${item.to}`}</p>
@@ -13,10 +13,15 @@ function Education() {
             {item.university}
           </a>
           <br />
-          <br />
           <a target="_blank" className="title italic mt1" href={item?.href}>
             {item.department}
           </a>
+          {/* <br />
+          <br /> */}
+          {/* <p className="title mb0">Thesis: {item.thesis}</p>
+          <p className="title mb0">{item.thesisDescription}</p>
+          <br />
+          <p className="title mb0">Final grade: {item.grade}</p> */}
         </div>
       ))}
     </div>

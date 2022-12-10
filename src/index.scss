@@ -25,6 +25,14 @@
     color: rgb(16, 15, 15);
   }
 
+  .cv {
+    color: rgb(16, 15, 15);
+  }
+
+  .cv.cv::hover {
+    color: blue;
+  }
+
   .title {
     font-size: 1em;
     color: rgb(16, 15, 15);
@@ -51,10 +59,17 @@
 
   .project-holder {
     flex: 1;
+    margin: 0em 2em;
+    padding: 1em 1em;
     align-self: center !important;
     align-items: center !important;
     align-content: center !important;
     justify-content: center !important;
+  }
+
+  .selected-project {
+    border-radius: 0.4em;
+    box-shadow: rgba(146, 146, 146, 0.4) 0px 7px 20px 0px;
   }
 
   .company-holder {
@@ -168,6 +183,14 @@
     margin-bottom: 1em;
   }
 
+  .cv {
+    color: white;
+  }
+  .cv::hover {
+    color: blue;
+  }
+
+
   .title {
     font-size: 0.9em;
     color: white;
@@ -194,10 +217,17 @@
 
   .project-holder {
     flex: 1;
+    margin: 0em 2em;
+    padding: 1em 1em;
     align-self: center !important;
     align-items: center !important;
     align-content: center !important;
     justify-content: center !important;
+  }
+
+  .selected-project {
+    border-radius: 0.5em;
+    box-shadow: rgba(146, 146, 146, 0.4) 0px 7px 20px 0px;
   }
 
   .company-holder {
@@ -387,7 +417,9 @@ a {
   }
 
   .project-holder {
-    margin-bottom: 2.5em;
+    margin: 0em 0em !important;
+    padding: 1.5em 0.5em !important;
+    margin-bottom: 2.5em !important;
   }
 
   .theme-button {
