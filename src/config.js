@@ -192,7 +192,8 @@ module.exports = {
       role: "Mobile app developer",
       releasedOn: "coming soon",
       appStore: "",
-      playStore: "",
+      playStore:
+        "https://play.google.com/store/apps/details?id=com.gpower.mobile",
       logo: require("./assets/gpower.png"),
     },
   ],
