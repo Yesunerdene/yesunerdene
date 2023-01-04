@@ -196,6 +196,16 @@ module.exports = {
         "https://play.google.com/store/apps/details?id=com.gpower.mobile",
       logo: require("./assets/gpower.png"),
     },
+    {
+      id: 5,
+      title: "Subedei",
+      company: "Octagon LLC",
+      role: "Mobile app developer",
+      releasedOn: "coming soon",
+      appStore: "",
+      playStore: "",
+      logo: require("./assets/subedei.png"),
+    },
   ],
   certificates: [
     {
