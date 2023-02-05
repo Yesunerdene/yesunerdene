@@ -118,15 +118,15 @@
   }
 
   .project-logo {
-    width: 8em;
-    height: 8em;
+    width: 7.5em;
+    height: 7.5em;
     margin: auto;
     display: block;
     text-align:center;
     margin-bottom: 1em;
     border-radius: 1em;
     align-self: center;
-    box-shadow: rgb(48, 52, 56, 0.5) 0px 4px 8px;
+    box-shadow: rgb(48, 52, 56, 0.3) 0px 4px 8px;
   }
 
   .line {
@@ -275,8 +275,8 @@
   }
 
   .project-logo {
-    width: 8em;
-    height: 8em;
+    width: 7.5em;
+    height: 7.5em;
     margin: auto;
     display: block;
     text-align:center;
@@ -355,7 +355,7 @@ a {
 .my-row {
   flex: 1 !important;
   flex-direction: row !important;
-  justify-content: space-between !important;
+  justify-content: flex-start !important;
 }
 
 .text-center {
