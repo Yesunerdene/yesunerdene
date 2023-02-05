@@ -4,10 +4,10 @@ import "./App.css";
 import Home from "./Pages/Home";
 
 function App() {
-  const [theme, settheme] = useState("dark-theme");
+  const [theme, settheme] = useState("light-theme");
 
   useEffect(() => {
-    document.body.style.background = "#2c3440";
+    document.body.style.background = "#FFFFFF";
   }, []);
 
   const changeTheme = () => {

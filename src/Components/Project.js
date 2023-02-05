@@ -13,7 +13,7 @@ function Project({ theme }) {
       <Row className="my-row">
         {config?.projects?.map((item) => (
           <Col
-            lg={4}
+            lg={3}
             md={6}
             sm={12}
             xs={12}
@@ -39,7 +39,7 @@ function Project({ theme }) {
                       size="3x"
                       // style="--fa-animation-duration: 0.5s;"
                       icon="fa-brands fa-app-store fa-beat"
-                      color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
+                      color={theme === "dark-theme" ? "#FFF" : "#535c6e"}
                     />
                   </a>
                 </div>
@@ -49,7 +49,7 @@ function Project({ theme }) {
                       size="3x"
                       // style="--fa-animation-duration: 0.5s;"
                       icon="fa-brands fa-google-play fa-beat"
-                      color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
+                      color={theme === "dark-theme" ? "#FFF" : "#535c6e"}
                     />
                   </a>
                 </div>
@@ -64,7 +64,7 @@ function Project({ theme }) {
       <Row className="my-row">
         {config?.webs?.map((item) => (
           <Col
-            lg={4}
+            lg={3}
             md={6}
             sm={12}
             xs={12}
@@ -90,7 +90,7 @@ function Project({ theme }) {
                       size="3x"
                       // style="--fa-animation-duration: 0.5s;"
                       icon="fa-solid fa-link"
-                      color={theme === "dark-theme" ? "#FFF" : "#2a303c"}
+                      color={theme === "dark-theme" ? "#FFF" : "#535c6e"}
                     />
                   </a>
                 </div>

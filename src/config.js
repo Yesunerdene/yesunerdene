@@ -88,7 +88,7 @@ module.exports = {
       company: "Powered LLC",
       position: "Software Developer - Mobile Application Developer",
       from: "Jan 2021",
-      to: "present",
+      to: "Jan 2022",
       href: "https://powered.mn/",
       description:
         "Powered LLC is a technology company founded in January 2021 which runs the YESH.MN - test- based learning app for university general entrance examination for high school students.\n\n I have been working as a software engineer, especially in the mobile application development of YE SH.MN app, which includes features for taking a test of entrance exam. I take responsibility for the whole mobile application project, which involves project planning, designing, developing, testing and maintaining the app.",
@@ -106,7 +106,7 @@ module.exports = {
       company: "Alpha Labs LLC",
       position: "Remote Software Developer",
       from: "Jul 2020",
-      to: "Sep 2022",
+      to: "Jan 2023",
       href: "https://www.bsb.mn/",
       description:
         "Alpha Labs LLC is a technology company founded in January 2015 and conducts the development of various kinds of platforms. \n\n I have been working as a software engineer, especially in the mobile application development of BS B.MN, G-Power monitoring and ISU Mongolia. I take responsibility in whole projects of the mobile applications respectively, in which I do project planning, designing, developing, testing and maintaining the app.",
@@ -126,7 +126,7 @@ module.exports = {
       id: 1,
       title: "Togloom Trade",
       company: "Ocurus.mn",
-      role: "Mobile app developer",
+      role: "Web developer",
       releasedOn: "2022.03.10",
       link: "https://togloom.trade",
       logo: require("./assets/togloom.png"),
@@ -177,6 +177,17 @@ module.exports = {
     },
     {
       id: 4,
+      title: "AND: Walk & Earn",
+      company: "Octagon LLC",
+      role: "Mobile app developer",
+      releasedOn: "coming soon",
+      appStore: "",
+      playStore:
+        "https://play.google.com/store/apps/details?id=com.walkandearn.mobileapp",
+      logo: require("./assets/and.png"),
+    },
+    {
+      id: 5,
       title: "ISU Mongolia",
       // company: "Alpha Labs LLC",
       role: "Mobile app developer",
@@ -186,8 +197,8 @@ module.exports = {
       logo: require("./assets/isu.jpeg"),
     },
     {
-      id: 5,
-      title: "G-Power monitoring",
+      id: 6,
+      title: "G-Solar monitoring",
       // company: "Alpha Labs LLC",
       role: "Mobile app developer",
       releasedOn: "coming soon",
@@ -195,16 +206,6 @@ module.exports = {
       playStore:
         "https://play.google.com/store/apps/details?id=com.gpower.mobile",
       logo: require("./assets/gpower.png"),
-    },
-    {
-      id: 5,
-      title: "Subedei",
-      company: "Octagon LLC",
-      role: "Mobile app developer",
-      releasedOn: "coming soon",
-      appStore: "",
-      playStore: "",
-      logo: require("./assets/subedei.png"),
     },
   ],
   certificates: [
