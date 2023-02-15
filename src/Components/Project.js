@@ -36,7 +36,7 @@ function Project({ theme }) {
                 <div className="mr3">
                   <a target="blank" href={item?.appStore || ""}>
                     <FontAwesomeIcon
-                      size="3x"
+                      size="2xl"
                       // style="--fa-animation-duration: 0.5s;"
                       icon="fa-brands fa-app-store fa-beat"
                       color={theme === "dark-theme" ? "#FFF" : "#535c6e"}
@@ -46,7 +46,7 @@ function Project({ theme }) {
                 <div className="ml3">
                   <a target="blank" href={item?.playStore || ""}>
                     <FontAwesomeIcon
-                      size="3x"
+                      size="2xl"
                       // style="--fa-animation-duration: 0.5s;"
                       icon="fa-brands fa-google-play fa-beat"
                       color={theme === "dark-theme" ? "#FFF" : "#535c6e"}
@@ -87,7 +87,7 @@ function Project({ theme }) {
                 <div className="mr3">
                   <a target="blank" href={item?.link || ""}>
                     <FontAwesomeIcon
-                      size="3x"
+                      size="2xl"
                       // style="--fa-animation-duration: 0.5s;"
                       icon="fa-solid fa-link"
                       color={theme === "dark-theme" ? "#FFF" : "#535c6e"}
