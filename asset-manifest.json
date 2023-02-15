@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/yesunerdene/static/css/main.8b0d4717.css",
-    "main.js": "/yesunerdene/static/js/main.44fc0985.js",
+    "main.js": "/yesunerdene/static/js/main.2e755d59.js",
     "static/js/787.94b6e9da.chunk.js": "/yesunerdene/static/js/787.94b6e9da.chunk.js",
+    "static/media/YesunerdeneCV.pdf": "/yesunerdene/static/media/YesunerdeneCV.2fe87152ff64f9076bc0.pdf",
     "static/media/image.png": "/yesunerdene/static/media/image.57a5af55febd3b54034a.png",
-    "static/media/YesunerdeneCV.pdf": "/yesunerdene/static/media/YesunerdeneCV.a39451f1b523b621518d.pdf",
     "static/media/gpower.png": "/yesunerdene/static/media/gpower.380610067e505baa1226.png",
     "static/media/yesh.png": "/yesunerdene/static/media/yesh.63409ff85cf05455d342.png",
     "static/media/isu.jpeg": "/yesunerdene/static/media/isu.40067148a78de5b78dc2.jpeg",
@@ -15,11 +15,11 @@
     "static/media/and.png": "/yesunerdene/static/media/and.06836918f5eb5fb8e041.png",
     "index.html": "/yesunerdene/index.html",
     "main.8b0d4717.css.map": "/yesunerdene/static/css/main.8b0d4717.css.map",
-    "main.44fc0985.js.map": "/yesunerdene/static/js/main.44fc0985.js.map",
+    "main.2e755d59.js.map": "/yesunerdene/static/js/main.2e755d59.js.map",
     "787.94b6e9da.chunk.js.map": "/yesunerdene/static/js/787.94b6e9da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b0d4717.css",
-    "static/js/main.44fc0985.js"
+    "static/js/main.2e755d59.js"
   ]
 }
