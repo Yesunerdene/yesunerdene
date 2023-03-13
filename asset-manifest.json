@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yesunerdene/static/css/main.bbcfda11.css",
+    "main.css": "/yesunerdene/static/css/main.e181286d.css",
     "main.js": "/yesunerdene/static/js/main.f8d031ea.js",
     "static/js/787.94b6e9da.chunk.js": "/yesunerdene/static/js/787.94b6e9da.chunk.js",
     "static/media/YesunerdeneCV.pdf": "/yesunerdene/static/media/YesunerdeneCV.05563b9ee783e7be3213.pdf",
@@ -15,12 +15,12 @@
     "static/media/octagon.png": "/yesunerdene/static/media/octagon.7d390c792c30b7168608.png",
     "static/media/and.png": "/yesunerdene/static/media/and.06836918f5eb5fb8e041.png",
     "index.html": "/yesunerdene/index.html",
-    "main.bbcfda11.css.map": "/yesunerdene/static/css/main.bbcfda11.css.map",
+    "main.e181286d.css.map": "/yesunerdene/static/css/main.e181286d.css.map",
     "main.f8d031ea.js.map": "/yesunerdene/static/js/main.f8d031ea.js.map",
     "787.94b6e9da.chunk.js.map": "/yesunerdene/static/js/787.94b6e9da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbcfda11.css",
+    "static/css/main.e181286d.css",
     "static/js/main.f8d031ea.js"
   ]
 }
