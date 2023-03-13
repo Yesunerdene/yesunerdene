@@ -10,6 +10,9 @@ function Certificate() {
           <p className="title text-small-gray">{`${item.year} - ${item?.number}`}</p>
           <p className="title mb0 text-small-gray">{item.text}</p>
           <p className="title mb0 italic">{`${item.title} from ${item.org}`}</p>
+          <a href={item.link} target="_blank" className="title text-small-gray">
+            Verify here
+          </a>
           {index + 1 < config?.certificates?.length && (
             <div className="line2" />
           )}
