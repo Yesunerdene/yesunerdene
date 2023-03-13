@@ -16,6 +16,7 @@ function Contact({ theme }) {
             color={theme === "dark-theme" ? "#FFF" : "#000"}
           />
           <a
+            target="blank"
             href={item?.href}
             className={`title contact-title ${
               item?.key === "Phone" ? "ml3" : ""

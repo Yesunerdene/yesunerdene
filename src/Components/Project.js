@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import config from "../config";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Row, Col, Image, Modal, Container } from "react-bootstrap";
+import { Row, Col, Image, Modal, Button } from "react-bootstrap";
 
 function Project({ theme }) {
-  const [selected, select] = useState(config?.projects[0]);
+  const [selected, select] = useState();
 
   return (
     <div className="my-card my-info">
@@ -12,18 +12,11 @@ function Project({ theme }) {
       <p className="title text-bigger mb0 ml1">{`Mobile applications`}</p>
       <Row className="my-row">
         {config?.projects?.map((item) => (
-          <Col
-            lg={3}
-            md={6}
-            sm={12}
-            xs={12}
-            key={item?.title}
-            // onClick={() => select(item)}
-          >
+          <Col lg={3} md={6} sm={12} xs={12} key={item?.title}>
             <div
               key={item?.title}
               className={`project-holder 
-                // {selected?.title === item?.title ? "selected-project" : ""}
+                ${selected?.title === item?.title ? "selected-project" : ""}
               `}
             >
               <Image src={item?.logo} className="project-logo mb2" />
@@ -31,7 +24,7 @@ function Project({ theme }) {
               <p className="title text-center mb0">{`by ${
                 item.company || ""
               }`}</p>
-              <p className="title text-small-gray text-center">{`released on ${item.releasedOn}`}</p>
+              <p className="title text-small-gray text-center">{`released in ${item.releasedOn}`}</p>
               <div className="my-row2 mt1 ">
                 <div className="mr3">
                   <a target="blank" href={item?.appStore || ""}>
@@ -53,6 +46,9 @@ function Project({ theme }) {
                     />
                   </a>
                 </div>
+                <div className="ml3" onClick={() => select(item)}>
+                  <p className="title text-bigger2 mb0 text-center">ⓘ</p>
+                </div>
               </div>
               <div className="line" />
               <div className="dot" />
@@ -63,18 +59,12 @@ function Project({ theme }) {
       <p className="title text-bigger mb0 ml1">{`Web sites`}</p>
       <Row className="my-row">
         {config?.webs?.map((item) => (
-          <Col
-            lg={3}
-            md={6}
-            sm={12}
-            xs={12}
-            key={item?.title}
-            // onClick={() => select(item)}
-          >
+          <Col lg={3} md={6} sm={12} xs={12} key={item?.title}>
             <div
               key={item?.title}
-              className={`project-holder 
-                // {selected?.title === item?.title ? "selected-project" : ""}
+              className={`project-holder ${
+                selected?.title === item?.title ? "selected-project" : ""
+              }
               `}
             >
               <Image src={item?.logo} className="project-logo mb2" />
@@ -82,7 +72,7 @@ function Project({ theme }) {
               <p className="title text-center mb0">{`by ${
                 item.company || ""
               }`}</p>
-              <p className="title text-small-gray text-center">{`released on ${item.releasedOn}`}</p>
+              <p className="title text-small-gray text-center">{`released in ${item.releasedOn}`}</p>
               <div className="my-row2 mt1 ">
                 <div className="mr3">
                   <a target="blank" href={item?.link || ""}>
@@ -94,6 +84,9 @@ function Project({ theme }) {
                     />
                   </a>
                 </div>
+                <div className="ml3" onClick={() => select(item)}>
+                  <p className="title text-bigger2 mb0 text-center">ⓘ</p>
+                </div>
               </div>
               <div className="line" />
               <div className="dot" />
@@ -101,23 +94,17 @@ function Project({ theme }) {
           </Col>
         ))}
       </Row>
-      {/* <div>
-        <p className="title text-bigger mb0 text-center">{selected.title}</p>
-      </div> */}
-      {/* <Modal show={selected?.id === 0} onHide={null}>
+      <Modal show={!!selected} onHide={null}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>{selected?.title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, youre reading this text in a modal!</Modal.Body>
+        <Modal.Body>{selected?.desc}</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="primary" onClick={() => select(null)}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
         </Modal.Footer>
-      </Modal> */}
+      </Modal>
     </div>
   );
 }

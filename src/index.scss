@@ -34,7 +34,7 @@
   }
 
   .title {
-    font-size: 1em;
+    font-size: 0.9em;
     color: rgb(16, 15, 15);
     line-height: 1.5em !important;
   }
@@ -68,8 +68,24 @@
   }
 
   .selected-project {
-    border-radius: 0.4em;
-    box-shadow: rgba(146, 146, 146, 0.4) 0px 7px 20px 0px;
+    // border-radius: 4px;
+    // box-shadow: rgba(212, 163, 236, 0.5) 0px 4px 8px;
+    // border-radius: 0.4em;
+    // box-shadow: rgba(146, 146, 146, 0.2) 0px 7px 20px 0px;
+  }
+
+  .modal {
+    // top: 0px;
+    // left: 0px;
+    // right: 0px;
+    // bottom: 0px;
+    // width: 300px;
+    // height: 300px;
+    // // position: absolute;
+    // align-self: center;
+    // border-radius: 4px;
+    // box-shadow: rgba(212, 163, 236, 0.5) 0px 4px 8px;
+
   }
 
   .company-holder {
@@ -94,6 +110,11 @@
   .text-bigger {
     font-size: 1.2em  !important;
   }
+  .text-bigger2 {
+    margin-left: 0.5em;
+    font-size: 1.5em  !important;
+  }
+
 
   .text-large {
     font-size: 2em  !important;
@@ -226,8 +247,8 @@
   }
 
   .selected-project {
-    border-radius: 0.5em;
-    box-shadow: rgba(146, 146, 146, 0.4) 0px 7px 20px 0px;
+    // border-radius: 0.5em;
+    // box-shadow: rgba(146, 146, 146, 0.4) 0px 7px 20px 0px;
   }
 
   .company-holder {
@@ -251,6 +272,10 @@
 
   .text-bigger {
     font-size: 1.2em  !important;
+  }
+  .text-bigger2 {
+    margin-left: 0.5em;
+    font-size: 1.5em  !important;
   }
 
   .text-large {
