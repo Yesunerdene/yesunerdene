@@ -25,7 +25,7 @@ module.exports = {
       key: "WhatsApp",
       icon: "fa-brands fa-whatsapp",
       url: false,
-      value: "+97699401008",
+      value: "+39 3455271173",
       href: "#",
     },
     {
@@ -68,7 +68,7 @@ module.exports = {
       thesisDescription:
         "Based on the thesis, I developed a mobile application and a website for a real estate platform.",
       grade: "3.5 / 4.0",
-      major: "Bachelor of Engineering in Software Engineer",
+      major: "Bachelor of Engineering in Software Engineering",
       degree: "Bachelor",
       from: "2016",
       to: "2020",
@@ -204,13 +204,13 @@ module.exports = {
           title: "Taiki",
           // company: "Alpha Labs LLC",
           role: "Mobile app developer",
-          releasedOn: "coming soon",
+          releasedOn: "2024",
           appStore:
             "https://apps.apple.com/it/app/taiki-%D0%B2%D0%B0%D1%88-%D1%86%D0%B5%D0%BD%D1%82%D1%80-%D1%88%D0%BE%D0%BF%D0%BF%D0%B8%D0%BD%D0%B3%D0%B0/id6504776266?l=en-GB",
           playStore:
             "https://play.google.com/store/apps/details?id=com.taiki&hl=en",
           logo: require("./assets/taiki.png"),
-          desc: 'I worked on developing a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
+          desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China.",
         },
       ],
     },
@@ -321,7 +321,7 @@ module.exports = {
     twitter: "",
     facebook: "https://www.facebook.com/Yesunerdene9",
     instagram: "https://www.instagram.com/yesunerdene9",
-    whatsapp: "+976 96891008",
+    whatsapp: "+39 3455271173",
     dribbble: "",
     behance: "",
     medium: "",
