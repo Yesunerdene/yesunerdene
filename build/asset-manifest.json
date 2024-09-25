@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/yesunerdene/static/css/main.deb01d7e.css",
+    "main.js": "/yesunerdene/static/js/main.558e9656.js",
+    "static/js/787.94b6e9da.chunk.js": "/yesunerdene/static/js/787.94b6e9da.chunk.js",
+    "static/media/YesunerdeneCV.pdf": "/yesunerdene/static/media/YesunerdeneCV.05563b9ee783e7be3213.pdf",
+    "static/media/image.png": "/yesunerdene/static/media/image.57a5af55febd3b54034a.png",
+    "static/media/gpower.png": "/yesunerdene/static/media/gpower.380610067e505baa1226.png",
+    "static/media/yesh.png": "/yesunerdene/static/media/yesh.63409ff85cf05455d342.png",
+    "static/media/ail.png": "/yesunerdene/static/media/ail.12c3e4e1d842363c9072.png",
+    "static/media/isu.jpeg": "/yesunerdene/static/media/isu.40067148a78de5b78dc2.jpeg",
+    "static/media/bsb.png": "/yesunerdene/static/media/bsb.ded626c427489cf3a886.png",
+    "static/media/taiki.png": "/yesunerdene/static/media/taiki.48df0c58f27397b57870.png",
+    "static/media/togloom.png": "/yesunerdene/static/media/togloom.9a794e6ae4eefb77d791.png",
+    "static/media/bananamall.png": "/yesunerdene/static/media/bananamall.8b5cd67dee7a0a497d6a.png",
+    "static/media/octagon.png": "/yesunerdene/static/media/octagon.7d390c792c30b7168608.png",
+    "static/media/and.png": "/yesunerdene/static/media/and.06836918f5eb5fb8e041.png",
+    "index.html": "/yesunerdene/index.html",
+    "main.deb01d7e.css.map": "/yesunerdene/static/css/main.deb01d7e.css.map",
+    "main.558e9656.js.map": "/yesunerdene/static/js/main.558e9656.js.map",
+    "787.94b6e9da.chunk.js.map": "/yesunerdene/static/js/787.94b6e9da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb01d7e.css",
+    "static/js/main.558e9656.js"
+  ]
+}
