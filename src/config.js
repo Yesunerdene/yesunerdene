@@ -5,7 +5,7 @@ module.exports = {
   profession: "Software Engineer",
   occupation: "Mobile app developer",
   description:
-    "I am a proactive software engineer and am particularly ambitious to develop an eye-tracking technology which helps people with movement disabilities use devices with eyes, using machine learning. I have broad experience in software engineering and programming for 3.5 years and am professional in the whole mobile application project development process. I acquired basic knowledge of data manipulation and cleansing techniques. Also, I developed and published seven different mobile applications that are widely used in my country.",
+    "I am a proactive software engineer and particularly ambitious to develop an eye-tracking technology which helps people with movement disabilities by applying machine leaning model. I have broad experience in software engineering and programming for 5 years and am professional in the whole mobile application project development process. I acquired fundamentals of machine learning. Also, I developed and published more than 10 different mobile applications that are widely used in my country, also in Kazakhstan.",
   contact: [
     {
       key: "Email",
@@ -51,7 +51,7 @@ module.exports = {
       thesis:
         "The real estate advertisement for renting or selling platform based on a map.",
       thesisDescription:
-        "Based on the thesis, I developed a mobile application and a website for a real estate platform.",
+        "Based on the thesis, I developed a mobile application and a website for a real estate selling, renting, purchasing and auctioning platform.",
       grade: "3.5 / 4.0",
       major: "Master of Science in Computer Science",
       degree: "Bachelor",
@@ -104,10 +104,10 @@ module.exports = {
       company: "Octagon LLC",
       position: "Software engineer",
       from: "Jan 2022",
-      to: "present",
+      to: "Aug 2023",
       href: "https://powered.mn/",
       description:
-        "Octagon LLC is a technology company founded in December 2021 which runs the Octagon - a crypto-based NFT marketplace and crypto exchange platform. \n\n I have been working as a software engineer, especially in the mobile application development of the Octagon app, which includes features of a digital wallet control, a crypto exchange and an NFT marketplace. As a developer, I take responsibility for the whole mobile application project, which I do project planning, designing, developing, testing and maintaining the app.",
+        "Octagon LLC is a technology company founded in December 2021 which runs the Octagon - a crypto-based NFT marketplace and crypto exchange platform. \n\n I had worked as a software engineer, especially in the mobile application development of the Octagon app, which includes features of a digital wallet control, a crypto exchange and an NFT marketplace. As a developer, I take responsibility for the whole mobile application project, which I do project planning, designing, developing, testing and maintaining the app.",
     },
     {
       company: "Powered LLC",
@@ -119,7 +119,7 @@ module.exports = {
         "Powered LLC is a technology company founded in January 2021 which runs the YESH.MN - test- based learning app for university general entrance examination for high school students.\n\n I have been working as a software engineer, especially in the mobile application development of YE SH.MN app, which includes features for taking a test of entrance exam. I take responsibility for the whole mobile application project, which involves project planning, designing, developing, testing and maintaining the app.",
     },
     {
-      company: "Digital Mall LLC",
+      company: "Digital Mall LLC / And Global",
       position: "Software engineer",
       from: "Sep 2019",
       to: "Jan 2022",
@@ -146,7 +146,7 @@ module.exports = {
       releasedOn: "Jun 2020",
       link: "https://bananamall.mn",
       logo: require("./assets/bananamall.png"),
-      desc: "An e-commerce",
+      desc: "An e-commerce website.",
     },
     {
       id: 1,
@@ -156,7 +156,7 @@ module.exports = {
       releasedOn: "Aug 2019",
       link: "https://togloom.trade",
       logo: require("./assets/togloom.png"),
-      desc: "I worked on developing a website for an e-sport game virtual item marketplace",
+      desc: "I worked on developing a website for an e-sport game virtual item marketplace.",
     },
   ],
   projects: [
@@ -185,7 +185,7 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.hundredailmarket.mobileapp",
           logo: require("./assets/ail.png"),
-          desc: "I worked on developing a mobile application for all trade centres of building materials in Mongolia to make their trade online. It is an e-commerce application where shop sellers register their products, and buyers purchase their needs online. Also, delivery service companies handle user orders through the application. The application is waiting for the review to be published. (React Native JS)",
+          desc: "I worked on developing a mobile application for all trade centres of building materials in Mongolia to make their trade online. It is an e-commerce application where shop sellers register their products, and buyers purchase their needs online. Also, delivery service companies handle user orders through the application. (React Native JS)",
         },
         {
           id: 2,
@@ -210,7 +210,7 @@ module.exports = {
           playStore:
             "https://play.google.com/store/apps/details?id=com.taiki&hl=en",
           logo: require("./assets/taiki.png"),
-          desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China.",
+          desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China. (React Native TS)",
         },
       ],
     },

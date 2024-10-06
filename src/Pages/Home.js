@@ -36,10 +36,10 @@ function Home({ theme, changeTheme }) {
           </Row>
         </Col>
         <Col sm={12} md={12} lg={12}>
-          <Experience theme={theme} />
+          <Project theme={theme} />
         </Col>
         <Col sm={12} md={12} lg={12}>
-          <Project theme={theme} />
+          <Experience theme={theme} />
         </Col>
       </Row>
       <Footer />
