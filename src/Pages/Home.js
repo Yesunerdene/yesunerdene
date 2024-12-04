@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 
 import { Row, Col } from "react-bootstrap";
 import {
+  Others,
   MyInfo,
   Contact,
   Project,
@@ -40,6 +41,9 @@ function Home({ theme, changeTheme }) {
         </Col>
         <Col sm={12} md={12} lg={12}>
           <Experience theme={theme} />
+        </Col>
+        <Col sm={12} md={12} lg={12}>
+          <Others theme={theme} />
         </Col>
       </Row>
       <Footer />
