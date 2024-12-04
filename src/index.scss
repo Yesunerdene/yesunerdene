@@ -150,6 +150,13 @@
     box-shadow: rgb(48, 52, 56, 0.3) 0px 4px 8px;
   }
 
+  .gallery {
+    width: 100%;
+    height: undefined;
+    margin-right: 1em;
+    border-radius: 0.3em;
+  }
+
   .line {
     flex: 1;
     width: 100%;
@@ -310,6 +317,14 @@
     border-radius: 1em;
     align-self: center;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 8px;
+  }
+
+
+  .gallery {
+    width: 23em;
+    height: undefined;
+    margin-right: 1em;
+    border-radius: 0.3em;
   }
 
   .line {
