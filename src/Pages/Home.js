@@ -42,9 +42,9 @@ function Home({ theme, changeTheme }) {
         <Col sm={12} md={12} lg={12}>
           <Experience theme={theme} />
         </Col>
-        <Col sm={12} md={12} lg={12}>
+        {/* <Col sm={12} md={12} lg={12}>
           <Others theme={theme} />
-        </Col>
+        </Col> */}
       </Row>
       <Footer />
     </div>

@@ -35,13 +35,13 @@ module.exports = {
       value: "https://www.linkedin.com/in/yesunerdene-jargalsaikhan-b46398162/",
       href: "https://www.linkedin.com/in/yesunerdene-jargalsaikhan-b46398162/",
     },
-    {
-      key: "Facebook",
-      icon: "fa-brands fa-facebook",
-      url: true,
-      value: "https://www.facebook.com/Yesunerdene9",
-      href: "https://www.facebook.com/Yesunerdene9",
-    },
+    // {
+    //   key: "Facebook",
+    //   icon: "fa-brands fa-facebook",
+    //   url: true,
+    //   value: "https://www.facebook.com/Yesunerdene9",
+    //   href: "https://www.facebook.com/Yesunerdene9",
+    // },
   ],
   educations: [
     {
