@@ -22,9 +22,9 @@ function MyInfo({ theme, changeTheme }) {
           )}
         </div>
       </div>
-      <p className="card-title text-large text-center">{`${config.fullName}🕊`}</p>
+      <p className="card-title text-large text-center">{`${config.fullName}`}</p>
       <p className="title text-center text-bigger">{`${config.profession}, (${config.occupation})`}</p>
-      <p className="title text-center w50">{`🍀 ${config.description} 🌊`}</p>
+      <p className="title text-center w50">{`🍀 ${config.description}`}</p>
     </div>
   );
 }
