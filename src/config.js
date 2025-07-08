@@ -212,6 +212,19 @@ module.exports = {
           logo: require("./assets/taiki.png"),
           desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China. (React Native TS)",
         },
+        {
+          id: 7,
+          title: "Suvd",
+          // company: "Alpha Labs LLC",
+          role: "Mobile app developer",
+          releasedOn: "2025",
+          appStore:
+            "https://apps.apple.com/it/app/taiki-%D0%B2%D0%B0%D1%88-%D1%86%D0%B5%D0%BD%D1%82%D1%80-%D1%88%D0%BE%D0%BF%D0%BF%D0%B8%D0%BD%D0%B3%D0%B0/id6504776266?l=en-GB",
+          playStore:
+            "https://play.google.com/store/apps/details?id=com.taiki&hl=en",
+          logo: require("./assets/suvd.png"),
+          desc: "I worked on developing a mobile application dedicated to citizens of Kazakhstan for purchasing products from China. (React Native TS)",
+        },
       ],
     },
     {
@@ -237,6 +250,17 @@ module.exports = {
           appStore: "",
           playStore: "",
           logo: require("./assets/isu.jpeg"),
+          desc: 'I worked on developing a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
+        },
+        {
+          id: 8,
+          title: "iLog",
+          // company: "Alpha Labs LLC",
+          role: "Mobile app developer",
+          releasedOn: "coming soon",
+          appStore: "",
+          playStore: "",
+          logo: require("./assets/ilog.png"),
           desc: 'I worked on developing a mobile portal application dedicated to employees and parents of students of the "International School of Ulaanbaatar" for managing various kinds of activity in the school (React Native JS).',
         },
       ],
