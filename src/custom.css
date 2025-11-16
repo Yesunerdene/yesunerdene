@@ -1,0 +1,91 @@
+.my-info-wrapper {
+  position: relative;
+  overflow: hidden;
+  /* background: transparent;  */
+  background-color: #2a303c; /* your old bg */
+}
+
+.floating-dots {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.my-info-wrapper .my-info {
+  position: relative;
+  z-index: 2;
+}
+
+/* Generate dots using pseudo-elements */
+.floating-dots::before,
+.floating-dots::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(white 1px, transparent 1px),
+                    radial-gradient(#ccc 1px, transparent 1px);
+  background-size: 50px 50px, 80px 80px;
+  opacity: 0.4;
+  animation: moveDots 40s linear infinite;
+}
+
+/* Second layer moves differently for a parallax effect */
+.floating-dots::after {
+  animation: moveDots2 60s linear infinite;
+  opacity: 0.25;
+}
+
+/* Animations */
+@keyframes moveDots {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-200px, -200px, 0);
+  }
+}
+
+@keyframes moveDots2 {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(200px, 200px, 0);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
+
+.floating-dots::before {
+  animation: moveDots 50s linear infinite, twinkle 6s ease-in-out infinite;
+}
+
+.floating-dots::after {
+  animation: moveDots2 80s linear infinite, twinkle 8s ease-in-out infinite;
+}
+
+.App.dark-theme .floating-dots::before,
+.App.dark-theme .floating-dots::after {
+  background-image:
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(#bfbfbf 1px, transparent 1px);
+}
+
+.App.light-theme .floating-dots::before,
+.App.light-theme .floating-dots::after {
+  background-image:
+    radial-gradient(#aaa 1px, transparent 1px),
+    radial-gradient(#ccc 1px, transparent 1px);
+}
+
+
+.floating-dots::after {
+  filter: blur(1px);
+}
