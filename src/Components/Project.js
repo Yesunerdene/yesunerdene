@@ -8,7 +8,8 @@ function Project({ theme }) {
 
   return (
     <div className="my-card my-info">
-      <p className="card-title">Projects / Mobile applications</p>
+      <p className="card-title">Projects</p>
+      <p className="card-title">Mobile applications</p>
       {/* <p className="title text-bigger mb0 ml1">{``}</p> */}
       <Row className="my-row">
         {config?.projects?.map((project) => {
@@ -23,10 +24,10 @@ function Project({ theme }) {
                     ${selected?.title === item?.title ? "selected-project" : ""}
                   `}
                   >
-                    <Col lg={3} md={9} sm={3} xs={3}>
+                    <Col lg={3} md={8} sm={3} xs={3}>
                       <Image src={item?.logo} className="project-logo mb2" />
                     </Col>
-                    <Col lg={9} md={3} sm={3} xs={9}>
+                    <Col lg={5} md={4} sm={3} xs={9}>
                       <p className="title text-bigger mb0 text-center">
                         {item.title}
                       </p>
@@ -59,7 +60,7 @@ function Project({ theme }) {
                           </a>
                         </div>
                         <div className="ml3" onClick={() => select(item)}>
-                          <p className="title text-small mb0 text-center">ⓘ</p>
+                          <p className="title text-small mb0 text-center">ℹ️</p>
                         </div>
                       </div>
                     </Col>
@@ -116,7 +117,11 @@ function Project({ theme }) {
         </Modal.Header>
         <Modal.Body>{selected?.desc}</Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" onClick={() => select(null)}>
+          <Button
+            className="custom-btn"
+            // variant="primary"
+            onClick={() => select(null)}
+          >
             Close
           </Button>
         </Modal.Footer>
